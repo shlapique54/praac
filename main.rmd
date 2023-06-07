@@ -1,0 +1,39 @@
+---
+output:
+  pdf_document:
+    latex_engine: xelatex
+    number_sections: true
+linkcolor: blue
+
+# mainfont: Linux Libertine O
+mainfont: CMU Serif
+fontsize: 11pt
+numbersections: true
+indent: true
+
+header-includes:
+- \usepackage{indentfirst}
+- \usepackage{fancyhdr}
+- \usepackage{cancel}
+
+- \pagestyle{fancy}
+- \fancyhead{}
+- \fancyhead[L]{\leftmark}
+
+- \newcommand{\R}{\mathbb{R}}
+- \newcommand{\Ll}{\mathbb{L}}
+- \newcommand{\N}{\mathbb{N}}
+- \newcommand{\F}{\mathbb{F}}
+
+- \setlength{\headheight}{15pt} 
+---
+\input{./files/title.tex}
+
+\input{./files/extra.tex}
+
+\tableofcontents
+
+\vspace*{\fill}
+
+
+

@@ -31,6 +31,10 @@ header-includes:
 
 \input{./files/extra.tex}
 
+\begin{center} 
+    {\Large Отчет студента}
+\end{center}
+
 \tableofcontents
 
 \pagebreak

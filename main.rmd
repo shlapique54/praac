@@ -457,6 +457,8 @@ trig:   triglycerides (mg/dl)
 лечения. Возможно, в дальнейшем, будут разработаны более точные алгоритмы 
 предсказания выживаемости пациентов, больных циррозом печени.
 
+\pagebreak
+
 # Источники
 
 * https://scikit-survival.readthedocs.io/en/stable/user_guide/00-introduction.html
